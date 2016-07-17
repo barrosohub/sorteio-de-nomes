@@ -13,7 +13,7 @@ function iniciar()
 
     echo "Nome sorteado: <br/>";
 
-    for ($s = 1; $s <= 1; $s++)
+    for ($s = 0; $s <= 1; $s++)
     {
         echo $y[] = sortearNome();
     }
