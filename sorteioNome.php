@@ -4,10 +4,10 @@ function iniciar()
 {
     function sortearNome()
     {
-        $nome = ["Joao", "Maria", "Carla", "Marciana", "Luciana", "Margarete", "Claudiane", "Ramilo", "Felipe"];
+        $nomes = ["Joao", "Maria", "Carla", "Marciana", "Luciana", "Margarete", "Claudiane", "Ramilo", "Felipe"];
         $x = rand(0, (count($nome)-1));
 
-        return $a[] = $nome[$x] . "<br/>";
+        return $a[] = $nomes[$x] . "<br/>";
 
     }
 
